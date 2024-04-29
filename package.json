@@ -9,6 +9,8 @@
   "author": "Aston Jones",
   "license": "ISC",
   "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   }
