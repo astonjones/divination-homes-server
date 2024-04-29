@@ -76,7 +76,7 @@ app.post('/contact', async (req, res) => {
             if (error.code === APIErrorCode.ObjectNotFound) {
                 console.log({level: 'error', message: 'Error retrieving API key. Check the API key for notion and try again.'});
             } else {
-                console.error({level: 'error', message:'500 error. Something went wrong.'});
+                console.error({level: 'error', message:'500 error. Error coming from /contact endpoint', error});
             }
         }
     } else {
